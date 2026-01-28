@@ -1,0 +1,8 @@
+# Load .env file
+dotenv
+
+# Load nix support if has, or do nothing
+if [[ -d ~/dev-envs/all ]]; then
+  use flake ~/dev-envs/all#backend-full
+fi
+
