@@ -5,4 +5,3 @@ dotenv
 if [[ -d ~/dev-envs/all ]]; then
   use flake ~/dev-envs/all#backend-full
 fi
-
